@@ -1,0 +1,31 @@
+
+
+header p {
+    font-size: 14px;
+}
+
+section {
+    width: 80%;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #000;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #000;
+}

@@ -1,0 +1,22 @@
+
+.equipment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.equipment-item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-item h3 {
+    color: #0066cc;
+}
+
+.equipment-item p {
+    color: #333;
+}
+

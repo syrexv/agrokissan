@@ -1,0 +1,23 @@
+
+
+#initial {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+#options {
+    display: none;
+}
+
+#agrokisanDevices, #partnerDevices {
+    margin-top: 20px;
+}
+
+
+
+
+p {
+    margin: 5px 0;
+}
