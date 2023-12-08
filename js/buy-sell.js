@@ -36,11 +36,22 @@ function handleBuyButtonClick(productName, productPrice) {
 }
 
 // Add event listeners to buy buttons
-const buyButtons = document.querySelectorAll('.product button');
-buyButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        const productName = this.parentNode.querySelector('img').alt;
-        const productPrice = this.parentNode.querySelector('p').textContent.replace('Price: $', '');
-        handleBuyButtonClick(productName, productPrice);
+
+document.getElementsByName("infobox")[0].style.display="none";
+document.getElementsByName("infobox")[1].style.display="none";
+
+function showInfoBox() {
+    var infoBox = document.getElementsByName("infobox");
+    infoBox.forEach(element => {
+        element.style.display = "block";
     });
-});
+    
+}
+
+function hideInfoBox() {
+    var infoBox = document.getElementsByName("infobox");
+    infoBox.forEach(element => {
+        element.style.display = "none";
+    });
+
+}

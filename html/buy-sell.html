@@ -15,7 +15,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Listing</title>
+    <title></title>
 </head>
 <body>
     <header>
@@ -45,11 +45,20 @@
     </div>
 
 
-    <!-- Buyer sees the product and gets buy options -->
+    <!-- Buyer see the product and gets buy options -->
     <h2>Available Products</h2>
 
-    <!-- Display product information retrieved from the backend -->
+    <!-- Display prodsuct information retrieved from the backend -->
     <div class="product">
+        <div class="info">
+            <button class="none" onmousedown="showInfoBox()"     onmouseup="hideInfoBox()">
+                <img class="info" src="../img/info.png" alt="">
+            </button>
+        </div>
+        <p class="infobox" name="infobox">
+           Discription
+        </p>
+       
         <img src="../img/img1.jpeg" alt="Product 1">
         <p>Price:  50 &#x20B9</p>
         <p>Weight:  10Kg</p>
@@ -58,6 +67,14 @@
     </div>
 
     <div class="product">
+        <div class="info">
+            <button class="none" onmousedown="showInfoBox()" onmouseup="hideInfoBox()">
+                <img class="info" src="../img/info.png" alt="">
+            </button>
+        </div>
+        <p class="infobox" name="infobox">
+            Discription
+        </p>
         <img src="../img/img2.jpeg" alt="Product 2">
         <p>Price: 30 &#x20B9</p>
         <p>Weight: 10Kg</p>

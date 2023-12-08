@@ -18,22 +18,22 @@ h2{
     color:#004080;
 }
 
-.logo-container img {
-
-    max-width: 200px;
-}
-
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+    align-items: center;
     margin-top: 10px;
+    font-size : 30px;
+
 }
 
+.center{
+    margin: auto;
+}
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 20px;
-    font-size: 16px;
     transition: color 0.5s ease;
 }
 
