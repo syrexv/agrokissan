@@ -1,0 +1,22 @@
+#videos {
+    padding: 20px;
+}
+
+#videos h2 {
+    color: #3498db; /* Blue color for section heading */
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.video iframe {
+    width: 100%; /* Make the video iframe responsive */
+    height: 315px; /* Set a fixed height for the video iframe */
+}
+
+.video p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333; /* Dark gray text color for video description or title */
+}
