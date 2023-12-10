@@ -35,22 +35,16 @@ nav a {
 nav a:hover {
     color: #0066cc;
 }
-.logo-banner{
+.logo-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.banner{
-    width:40%;
-    height: 150px;
-    margin: auto;
-
-}
 .logo{
-    width: 20%;
-    height: 150px;
- 
+    width: 300px;
+    height: 200px;
 }
+
 
 main {
     padding: 20px;
@@ -74,7 +68,6 @@ footer {
     color: #333;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -113,36 +106,43 @@ button:hover {
 .login:hover {
         opacity:1;
       }
-
-
-      /* Add these styles to your existing styles.css or create a new CSS file */
-      #news-ticker {
-        background-color: #333;
+      .news-ticker-container {
+        overflow: hidden;
+        background-color: #004080;
         color: #fff;
         padding: 10px;
-        text-align: center;
     }
     
-    .ticker-container {
-        overflow: hidden;
-    }
-    
-    .ticker-content {
-        display: inline-block;
+    .news-ticker {
+        display: flex;
         animation: ticker-scroll 20s linear infinite;
     }
     
-    .ticker-item {
-        margin-right: 20px;
+    .news-item {
+        padding: 0 20px;
+        opacity: 0.8;
+        font-size: 18px;
         white-space: nowrap;
+        border-right: 2px solid #007BFF;
+    }
+    
+    .news-item:last-child {
+        border-right: none;
     }
     
     @keyframes ticker-scroll {
         0% {
             transform: translateX(100%);
         }
+    
         100% {
             transform: translateX(-100%);
         }
     }
     
+    .news-item:hover {
+        opacity: 1;
+        background-color: #0066cc;
+    }
+
+
