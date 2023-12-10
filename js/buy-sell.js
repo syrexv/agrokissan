@@ -48,10 +48,3 @@ function showInfoBox() {
     
 }
 
-function hideInfoBox() {
-    var infoBox = document.getElementsByName("infobox");
-    infoBox.forEach(element => {
-        element.style.display = "none";
-    });
-
-}
