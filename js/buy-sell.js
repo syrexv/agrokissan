@@ -40,11 +40,23 @@ function handleBuyButtonClick(productName, productPrice) {
 document.getElementsByName("infobox")[0].style.display="none";
 document.getElementsByName("infobox")[1].style.display="none";
 
+let k=0;
 function showInfoBox() {
+    k=k+1;
+    if(k%2==1){
     var infoBox = document.getElementsByName("infobox");
     infoBox.forEach(element => {
         element.style.display = "block";
     });
+    }
+    else{
+        var infoBox = document.getElementsByName("infobox");
+        infoBox.forEach(element => {
+            element.style.display = "none";
+        });
+
+    }
+
     
 }
 

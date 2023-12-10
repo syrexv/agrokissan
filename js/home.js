@@ -1,7 +1,5 @@
 document.getElementsByTagName("title")[0].innerText="Agrokissan";
 
-// Add this code to your existing home.js or create a new JavaScript file
-
 // Get the ticker content element
 const tickerContent = document.querySelector('.ticker-content');
 
